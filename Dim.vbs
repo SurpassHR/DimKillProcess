@@ -1,0 +1,1 @@
+createobject("wscript.shell").run "StopIt.bat",0
