@@ -1,1 +1,2 @@
-createobject("wscript.shell").run "StopIt.bat",0
+Set ws = CreateObject("Wscript.Shell")
+ws.run "cmd /c StopIt.bat",0
